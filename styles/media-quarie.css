@@ -1,6 +1,6 @@
 /* This media is for common and home page */
 
-@media (max-width:715px) {
+@media (max-width:615px) {
      .header {
         display: flex;
         justify-content: center;
@@ -98,7 +98,7 @@
 
 /* This meda is for scholar.css */
 
-@media (max-width:715px) {
+@media (max-width:615px) {
    .header-scholar {
     margin-bottom: 70px;
     height: 170px;
@@ -137,11 +137,21 @@
    }
 
    .heading-of-detail iframe {
-     width: 450px;
+     width: 350px;
      align-items: center;
-     height: 300px;
+     height: 200px;
      margin-right: 50px;
    }
+
+     .books-wrapper > .books-list li {
+    font-size: 1.25rem;
+   }
+
+   .about-scholars > .books-wrapper > .books-list {
+     margin-left: 10%;
+     width: 70%;
+   }
+   
    
    .website-wrapper h1 a {
     margin: 200px 10px 200px 10px;
@@ -150,7 +160,7 @@
 
    /* The code below is for about page */
 
-   @media (max-width:715px) {
+   @media (max-width:615px) {
     .about-page-container-heading-wrapper h1 {
         font-size: 3rem;
     }
@@ -202,7 +212,7 @@
         }
         
         .website-heading h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
 
         .websites-wrapper > .websites-details p {
