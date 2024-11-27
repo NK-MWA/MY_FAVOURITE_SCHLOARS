@@ -1,11 +1,7 @@
 /* This media is for common and home page */
 
 @media (max-width:715px) {
-    body {
-        max-width: 715px;
-    }
-    
-    .header {
+     .header {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -16,14 +12,31 @@
     .para-below-nav {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-size: small;
         height:2090px;
         background-repeat: repeat-y;
         background-size: contain;
     }
 
+    .para-below-nav div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    
     .para-below-nav p {
         padding: bottom 200px;
+        text-align: center;
+    }
+
+    .heading-of-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .list-of-scholars {
@@ -31,6 +44,17 @@
         grid-template-columns: 1fr;
         row-gap: 60px;
         margin-bottom: 10px;
+    }
+
+    .list-of-scholars p {
+        text-align: center;
+    }
+
+    .minimun-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .minimun-details > .minimun-detail {
